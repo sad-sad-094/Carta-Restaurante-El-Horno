@@ -1,0 +1,81 @@
+/* Author: Sebastian Aguirre Duque
+    E-mail: sadw621@gmail.com */
+
+
+body {
+    background-color: rgb(147,112,219);
+    font-family: tahoma, arial, helvet;
+    line-height: 1.5em;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    color: rgb(102,51,153);
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-title h1 {
+    color: white;
+    font-size: 36px;;
+}
+
+.container-menutitle {
+    display: flex;
+    align-content: left;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+}
+
+.container-menutitle h2 {
+    padding-left: 20px;
+    color: rgb(102,51,153);
+}
+
+.container-menu {
+    padding-left: 30px;
+    display: flex;
+    align-content: left;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.container-external {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.recipe-style {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
